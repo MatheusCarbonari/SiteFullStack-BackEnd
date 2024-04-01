@@ -1,0 +1,22 @@
+{
+  "name": "banckend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Matheus Carbonari",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "eslint": "^8.57.0",
+    "express": "^4.19.2",
+    "mongodb": "^6.5.0",
+    "mongoose": "^8.2.3",
+    "mongoose-autopopulate": "^1.1.0",
+    "nodemon": "^3.1.0"
+  }
+}
